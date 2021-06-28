@@ -23,11 +23,11 @@ void CheckMaxBank(void)
 		long tsr=0;
 		char ctsr=0;
 		BMS_Param.Umax=0;
-  // Here I made changes in branch 
-		if((BMS_Param.ch_status.Charge_stage!=0x03)||((BMS_Param.ch_status.lastPreBalancing+15L*1000L)>HAL_GetTick()))BMS_Param.Umin=5000;
+  // Here I made changes in branch 2
+	
 		BMS_Param.Tmax=0 branch branchbranchbranchbranchbranchbranch;
 		BMS_Param.Tmin=500 branch2 branch2 branch2 branch2 branch2 branch2 branch2 branch2 branch2 branch2 ;
-  // end of changes in branch
+  // end of changes in branch 2
 		for(int j=0;j<BMS_Param.BP.CellCount;j++){
 					uv=uv+cellVoltage[j];
           if(cellVoltage[j]>BMS_Param.Umax){
