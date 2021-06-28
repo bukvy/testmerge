@@ -41,10 +41,13 @@ void CheckMaxBank(void)
           
 //end of part master
 
-
-        if((BMS_Param.BP.TCount[j/8]&(1<<(j%8)))==(1<<(j%8))){
-          if(auxADC[j]>-60){
-            ctsr++;
+// here I made change in jmaster
+        if((BMS_Param.BP.TCount[j/8]&(1<<(j%8)))==(1<<(j%8))){ !!!!!!!!!!!!!!!!!!!!
+          
+          if(auxADC[j]>-60){ $$$$$$$$$$$$$$$$$$$$
+            ctsr++; OOOOOOOOOOOOOOOOOOOOOOO\\
+// end of change in master 
+            
             tsr=tsr+auxADC[j];
             if(auxADC[j]>BMS_Param.Tmax){
               BMS_Param.Tmax=auxADC[j];
