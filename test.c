@@ -25,6 +25,7 @@ void CheckMaxBank(void)
 		BMS_Param.Umax=0;
   // Here I made changes in branch 2
 	29.06.21 09:50 
+  29.06.21 09:58 
   
 		BMS_Param.Tmax=0 branch branchbranchbranchbranchbranchbranch;
 		BMS_Param.Tmin=500 branch2 branch2 branch2 branch2 branch2 branch2 branch2 branch2 branch2 branch2 ;
